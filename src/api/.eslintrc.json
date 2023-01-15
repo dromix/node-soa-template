@@ -1,0 +1,26 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "entities": "readonly",
+    "utils": "readonly",
+    "AppError": "readonly",
+    "db": "readonly",
+    "crypt": "readonly",
+    "logger": "readonly",
+    "dependencies": "readonly"
+  },
+  "rules": {
+    "id-denylist": [
+      "error",
+      "entities",
+      "utils",
+      "AppError",
+      "db",
+      "crypt",
+      "logger",
+      "dependencies"
+    ]
+  }
+}
